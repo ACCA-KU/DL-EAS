@@ -1,7 +1,7 @@
-from utils import *
 import json
 from collections import OrderedDict
 from rdkit.Chem import AllChem
+from rdkit import Chem
 from rdkit import DataStructs
 from scipy.linalg import block_diag
 import numpy as np
