@@ -1,0 +1,32 @@
+# =============================================================================
+# HM-GAT public repository
+# =============================================================================
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HM-GAT runtime-generated files
+_tmp_runtime/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary and log files
+*.tmp
+*.temp
+*.log
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
